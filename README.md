@@ -18,7 +18,7 @@ Simplify your reading with Samza, an open-source article summarizer that transfo
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/samza.git
+    git clone https://github.com/MuhammadKaifNazeer/samza.git
     ```
 
 2. Navigate to the project directory:
@@ -44,4 +44,6 @@ Simplify your reading with Samza, an open-source article summarizer that transfo
 Run the following command to start the development server:
 
 ```bash
+    npm run dev
+ ```
 npm run dev
