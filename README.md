@@ -38,9 +38,9 @@ Simplify your reading with Samza, an open-source article summarizer that transfo
     ```env
     VITE_RAPID_API_ARTICLE_KEY=your_api_key_here
     ```
-
+    
 5. Run the following command to start the development server:
 
-```bash
-    npm run dev
- ```
+    ```bash
+     npm run dev
+    ```
