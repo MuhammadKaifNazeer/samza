@@ -46,4 +46,3 @@ Run the following command to start the development server:
 ```bash
     npm run dev
  ```
-npm run dev
