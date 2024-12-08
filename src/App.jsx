@@ -1,6 +1,6 @@
-import Hero from './components/Hero'
-import Demo from './components/Demo'
-import './App.css';
+import Hero from "./components/Hero";
+import Summarizer from "./components/Summarizer";
+import "./App.css";
 const App = () => {
   return (
     <main>
@@ -10,10 +10,10 @@ const App = () => {
 
       <div className="app">
         <Hero />
-        <Demo />
+        <Summarizer />
       </div>
     </main>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -1,29 +1,20 @@
-import { logo } from '../assets';
+import Navbar from "./Navbar";
 
 const Hero = () => {
-    return (
-        <header className='w-full flex justify-center items-center flex-col'>
-            <nav className='flex justify-between items-center w-full mb-10 pt-3'>
-                <img src={logo} alt="sumz_logo" className='w-28 mt-2 object-contain' />
+  return (
+    <header className="w-full flex justify-center items-center flex-col">
+      <Navbar />
 
-                <button
-                    type='button'
-                    onClick={() => window.open('https://github.com/MuhammadKaifNazeer/samza')}
-                    className='black_btn'
-                >
-                    Github
-                </button>
-            </nav>
+      <h1 className="head_text">
+        Transforming Content with <br className="max-md:hidden" />
+        <span className="green_gradient">AI-Powered Precision</span>
+      </h1>
+      <h2 className="desc">
+        Unlock clarity and save time as Samza&apos;s AI delivers concise,
+        accurate summaries for any content, effortlessly.
+      </h2>
+    </header>
+  );
+};
 
-            <h1 className='head_text'>
-                Summarize Articles with <br className='max-md:hidden' />
-                <span className="orange_gradient">OpenAI GPT-4</span>
-            </h1>
-            <h2 className='desc'>
-                Simplify your reading with Summize, an open-source article summarizer that transforms lengthy articles into clear and concise summaries
-            </h2>
-        </header>
-    )
-}
-
-export default Hero
+export default Hero;
