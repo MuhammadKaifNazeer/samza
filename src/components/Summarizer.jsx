@@ -115,7 +115,6 @@ const Summarizer = () => {
 
       {/* Display Result */}
       <div className="my-10 max-w-full flex justify-center items-center">
-        <img src={loader} alt="loader" className="w-20 h-20 object-contain" />
         {isFetching ? (
           <img src={loader} alt="loader" className="w-20 h-20 object-contain" />
         ) : error ? (
